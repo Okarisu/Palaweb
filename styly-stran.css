@@ -1,19 +1,20 @@
-h1 {color: blue;text-align:center;}
-h2 {color: red;text-align:center;}
+body {background: RoyalBlue; font-family: arial}
+#obalovaci_div {position: relative; width: 1000px; height: 1300px; top: 0px; margin-left: auto; margin-right: auto; background: white
 
-body {background: RoyalBlue}
+}
+
+h1 {color: blue;text-align:center;}
+h2 {color: #009FFF;text-align:center;}
+a {text-decoration: none;}
+
 
 #odkazy {text-align: right}
 
-/*
-<div class="odkazy"><p style="text-align: right;">
-<a href="index.html">Domů</a>
-<a href="anime.html">Anime</a>
-<a href="about.html">O nás</a>
-</div>
-*/
 
+
+/*index*/
 #nadpis {position: relative; top: 70px; margin-left: auto; margin-right: auto}
+#season {position: relative; top:90px; text-align: center; margin-left: auto; margin-right: auto}
 #prekladame {position: relative; top: 0px; margin-left: auto; margin-right: auto}
 #done {position: relative; top: 100px; margin-left: auto; margin-right: auto}
 
