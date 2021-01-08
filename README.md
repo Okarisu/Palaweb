@@ -1,2 +1,0 @@
-# Palaweb
-just palaweb
