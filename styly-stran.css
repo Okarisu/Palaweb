@@ -1,0 +1,19 @@
+h1 {color: blue;text-align:center;}
+h2 {color: red;text-align:center;}
+
+body {background: RoyalBlue}
+
+#odkazy {text-align: right}
+
+/*
+<div class="odkazy"><p style="text-align: right;">
+<a href="index.html">Domů</a>
+<a href="anime.html">Anime</a>
+<a href="about.html">O nás</a>
+</div>
+*/
+
+#nadpis {position: relative; top: 70px; margin-left: auto; margin-right: auto}
+#prekladame {position: relative; top: 0px; margin-left: auto; margin-right: auto}
+#done {position: relative; top: 100px; margin-left: auto; margin-right: auto}
+

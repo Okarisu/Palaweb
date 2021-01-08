@@ -1,0 +1,2 @@
+5/1 opraveno stahování, ver 1.2
+7/1 php, ver 1.3
