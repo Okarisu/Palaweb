@@ -1,0 +1,31 @@
+body {background: RoyalBlue; font-family: arial}
+#obalovaci_div {position: relative; width: 1000px; height: 1300px; top: 0px; margin-left: auto; margin-right: auto; background: white
+
+}
+
+h1 {color: rgb(19, 121, 146);text-align:center;}
+h2 {color: #009FFF;text-align:center;}
+a {text-decoration: none;}
+
+
+#odkazy {text-align: right}
+
+
+
+/*index*/
+#nadpis {position: relative; top: 70px; margin-left: auto; margin-right: auto}
+#season {position: relative; top:90px; text-align: center; margin-left: auto; margin-right: auto}
+#prekladame {position: relative; top: 0px; margin-left: auto; margin-right: auto}
+#done {position: relative; top: 120px; margin-left: auto; margin-right: auto}
+
+/*about*/
+#media {position: relative; top: 100px; text-align: center; margin: 0px auto}
+
+#team {position: relative; width: 500px; height: 200px; top: 150px; margin: 0px auto; text-align: center}
+
+#preklad {position: absolute; width: 250px; height: 150px; top: 50px; left: 0px; text-align: center}
+#korekce {position: absolute; width: 250px; height: 150px; top: 50px; left: 250px; text-align: cemter}
+
+/*jednotliva-anime*/
+#obrazek {position: relative; /*width: 400px; height: 555px; top: 100px;*/ margin: 0px auto}
+#tabulka {position: relative; margin: 0px auto}
