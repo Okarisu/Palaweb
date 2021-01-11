@@ -1,7 +1,15 @@
 body {background: RoyalBlue; font-family: arial}
-#obalovaci_div {position: relative; width: 1000px; height: 1300px; top: 0px; margin-left: auto; margin-right: auto; background: white
+#obalovaci_div {position: relative; width: 1000px; height: 1300px; top: 0px; margin-left: auto; margin-right: auto; background: white}
 
-}
+#navbar {position: static; width: 1000px; height: 90px; top: 0px; margin: 0px auto; background-color:rgb(83, 91, 94); }
+
+#nav_palacinka {position: static; width: 50%; height: 90px; top: 0px; text-align: center; vertical-align: middle;}
+
+#nav_home
+#nav_anime
+#nav_about
+
+
 
 h1 {color: rgb(19, 121, 146);text-align:center;}
 h2 {color: #009FFF;text-align:center;}
@@ -13,14 +21,14 @@ a {text-decoration: none;}
 
 
 /*index*/
-#nadpis {position: relative; top: 70px; margin-left: auto; margin-right: auto}
+#nadpis {position: relative; top: 70px; margin-left: auto; margin-right: auto; text-align: center;}
 #season {position: relative; top:50px; text-align: center; margin-left: auto; margin-right: auto}
 
 
-#prekladame {position: relative; top: 0px; margin-left: auto; margin-right: auto}
+#prekladame {position: relative; top: 0px; margin-left: auto; margin-right: auto; text-align: center;}
 
 /*anime*/
-#done {position: relative; top: 120px; margin-left: auto; margin-right: auto}
+#done {position: relative; top: 120px; margin-left: auto; margin-right: auto; text-align: center;}
 
 /*about*/
 #media {position: relative; top: 100px; text-align: center; margin: 0px auto}
