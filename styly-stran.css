@@ -1,42 +1,185 @@
-body {background: RoyalBlue; font-family: arial}
-#obalovaci_div {position: relative; width: 1000px; height: 1300px; top: 0px; margin-left: auto; margin-right: auto; background: white}
-h1 {color: rgb(19, 121, 146);text-align:center;}
-h2 {color: #009FFF;text-align:center;}
-a {text-decoration: none;}
+body {
+    background: RoyalBlue;
+    font-family: arial
+}
 
-#navbar {position: relative; width: 1000px; height: 80px; margin: 0px auto; background-color:rgb(139, 144, 146);}
+.obalovaci_div {
+    position: relative;
+    width: 1000px;
+    height: 1300px;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white
+}
 
-#nav_palacinka {position: absolute; width: 400px; height: 80px; top: 0px; left: 0px; text-align: center; vertical-align: middle;}
+h1 {
+    color: rgb(19, 121, 146);
+    text-align: center;
+}
 
-#nav_home {position:absolute; width: 150px; height: 80px; top: 0px; left: 550px; text-align: center; vertical-align: middle; color: black;}
+h2 {
+    color: #009FFF;
+    text-align: center;
+}
 
-#nav_anime {position: absolute; width: 150px; height: 80px; top: 0px; left: 700px; text-align: center; vertical-align: middle;}
+a {
+    text-decoration: none;
+}
 
-#nav_about{position: absolute; width: 150px; height: 80px; left: 850px; text-align: center; vertical-align: middle;}
+.navbar {
+    position: relative;
+    width: 1000px;
+    height: 80px;
+    margin: 0px auto;
+    background-color: rgb(139, 144, 146);
+}
 
+.nav_palacinka {
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
 
-#odkazy {text-align: right}
+.nav_home {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    top: 0px;
+    left: 550px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+}
 
+.nav_anime {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    top: 0px;
+    left: 700px;
+    text-align: center;
+    vertical-align: middle;
+}
 
+.nav_about {
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    left: 850px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.odkazy {
+    text-align: right
+}
 
 /*index*/
-#nadpis {position: relative; top: 0px; margin-left: auto; margin-right: auto; text-align: center;}
-#season {position: relative; top: 50px; text-align: center; margin-left: auto; margin-right: auto}
 
+.nadpis {
+    position: relative;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
-#prekladame {position: relative; top: 0px; margin-left: auto; margin-right: auto; text-align: center;}
+.season {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.prekladame {
+    position: relative;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
 /*anime*/
-#done {position: relative; top: 120px; margin-left: auto; margin-right: auto; text-align: center;}
+
+.done {
+    position: relative;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
 /*about*/
-#media {position: relative; top: 50px; text-align: center; margin: 0px auto}
 
-#team {position: relative; width: 500px; height: 200px; top: 100px; margin: 0px auto; text-align: center}
+.media {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin: 0px auto
+}
 
-#preklad {position: absolute; width: 250px; height: 150px; top: 50px; left: 0px; text-align: center}
-#korekce {position: absolute; width: 250px; height: 150px; top: 50px; left: 250px; text-align: cemter}
+.team {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    top: 100px;
+    margin: 0px auto;
+    text-align: center
+}
+
+.preklad {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    top: 50px;
+    left: 0px;
+    text-align: center
+}
+
+.korekce {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    top: 50px;
+    left: 250px;
+    text-align: cemter
+}
 
 /*jednotliva-anime*/
-#obrazek {position: relative; /*width: 400px; height: 555px; top: 100px;*/ margin: 0px auto}
-#tabulka {position: relative; margin: 0px auto}
+
+.obrazek {
+    position: relative;
+    /*width: 400px; height: 555px; top: 100px;*/
+    margin: 0px auto
+}
+
+table {
+    
+    border-spacing: 6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    border: 2;
+    padding: 20;
+    
+}
+
+td {
+    border: 2;
+    padding: 20;
+    
+}
+
+.tabulka {
+    position: relative;
+    margin: 0px auto
+}
