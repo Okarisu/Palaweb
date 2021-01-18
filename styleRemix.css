@@ -92,16 +92,25 @@ body {
     left: 0px;
 }
 
+
+
 .social {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fill, 230px);
     justify-content: space-evenly;
-    gap: 1.5em 0;
+    gap: 1.5em 0; */
+
+    position: relative;
+    top: 5%;
+    height: 200px;
+    width: 50%;
+    margin: 0px auto;
+    background: rgb(206, 45, 45);
 }
 
 .social-card {
-    display: grid;
-    grid-template-rows: auto min-content;
+    /* display: grid;
+    grid-template-rows: auto min-content; */
     position: relative;
     width: 100%;
     font-family: Montserrat, sans-serif;
