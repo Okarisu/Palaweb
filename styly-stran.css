@@ -1,42 +1,211 @@
-body {background: RoyalBlue; font-family: arial}
-#obalovaci_div {position: relative; width: 1000px; height: 1300px; top: 0px; margin-left: auto; margin-right: auto; background: white}
-h1 {color: rgb(19, 121, 146);text-align:center;}
-h2 {color: #009FFF;text-align:center;}
-a {text-decoration: none;}
+body {
+    background-image:url(images/bg.jpg);
+    font-family: arial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.obalovaci_div {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+    background:#ffe9ccaa;
+}
 
-#navbar {position: relative; width: 1000px; height: 80px; margin: 0px auto; background-color:rgb(139, 144, 146);}
+h1 {
+    color:#2A2B2DFF;
+    text-align:center;
+}
 
-#nav_palacinka {position: absolute; width: 400px; height: 80px; top: 0px; left: 0px; text-align: center; vertical-align: middle;}
+h2 {
+    color:#2A2B2DFF;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+} 
+.palacinka{
+    color:#2b2c2dff;
+    font-weight:666;
+    font-family: arial;
+    font-size:140%;
+    width:100%;
+    margin:10px 20px;
+} 
 
-#nav_home {position:absolute; width: 150px; height: 80px; top: 0px; left: 550px; text-align: center; vertical-align: middle; color: black;}
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color:#F98700cc;
+    font-size:200%;
+    display:flex;
+    justify-content: flex-end;
+}
 
-#nav_anime {position: absolute; width: 150px; height: 80px; top: 0px; left: 700px; text-align: center; vertical-align: middle;}
+.navbar a{
+    text-decoration: none;
+    color:#2b2c2dff;
+    margin:5px 0px;
+    padding-top:15px;
+    width:140px;
+    height:35px;
+    text-align:center;
+    font-weight:666;
+    font-size:70%;
+} 
+.navbar a:hover{
+    background-color:#F98700cc;
+} 
 
-#nav_about{position: absolute; width: 150px; height: 80px; left: 850px; text-align: center; vertical-align: middle;}
+.nadpis{
+    color:#2b2c2dff;
+    font-weight:666;
+    font-family: arial;
+    font-size:170%;
+    margin-top:15px;
+    padding-top:20px; 
+}
 
+.prekladame a, .done a{
+margin:0px;
+padding:0px;
+color:black;
+font-size:130%;
+}
 
-#odkazy {text-align: right}
+.prekladame td:hover, .done td:hover{
+background:#00000025;
+}
 
-
+.prekladame td, .done td{
+padding:0px 10px;
+width:225px;
+border:0px;
+}
 
 /*index*/
-#nadpis {position: relative; top: 0px; margin-left: auto; margin-right: auto; text-align: center;}
-#season {position: relative; top: 50px; text-align: center; margin-left: auto; margin-right: auto}
 
+.season {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin-top:15px;
+    padding-top:20px;
+    font-size:120%; 
+}
 
-#prekladame {position: relative; top: 0px; margin-left: auto; margin-right: auto; text-align: center;}
+.prekladame {
+    position: relative;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
 /*anime*/
-#done {position: relative; top: 120px; margin-left: auto; margin-right: auto; text-align: center;}
+
+.done {
+    position: relative;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
 /*about*/
-#media {position: relative; top: 50px; text-align: center; margin: 0px auto}
 
-#team {position: relative; width: 500px; height: 200px; top: 100px; margin: 0px auto; text-align: center}
+.media {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    margin: 0px auto;
+    font-size:120%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
 
-#preklad {position: absolute; width: 250px; height: 150px; top: 50px; left: 0px; text-align: center}
-#korekce {position: absolute; width: 250px; height: 150px; top: 50px; left: 250px; text-align: cemter}
+.media h2{
+    width:1000px;
+}
+
+.media img {
+    width: 69px;
+    margin:10px 20px;
+}
+
+.team {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    top: 50px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.preklad {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    top: 50px;
+    left: 0px;
+    text-align: center
+}
+
+.korekce {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    top: 50px;
+    left: 250px;
+    text-align: cemter
+}
 
 /*jednotliva-anime*/
-#obrazek {position: relative; /*width: 400px; height: 555px; top: 100px;*/ margin: 0px auto}
-#tabulka {position: relative; margin: 0px auto}
+
+.obrazek {
+    position: relative;
+    /*width: 400px; height: 555px; top: 100px;*/
+    margin: 0px auto
+}
+
+table {
+    width:666px;
+    border-spacing: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+
+
+}
+
+th {
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid #666;
+    border-top: 1px solid #666;
+}
+
+td {
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid #666;
+}
+tr:hover {background-color:#00000010;} 
+tr:nth-child(even) {background-color:#ffdeb355;}
+tr:nth-child(even):hover {background-color:#ffdeb325;} 
+
+.tabulka {
+    position: relative;
+    margin: 20px auto;    
+}
+
+.obrazek{
+    position: relative;
+    text-align:center;    
+}

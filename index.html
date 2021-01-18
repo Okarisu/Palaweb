@@ -15,12 +15,12 @@
     <link rel="stylesheet" type="text/css" href="styly-stran.css">
 
     <style>
-        #obalovaci_div {
-            height: 1000px
+        .obalovaci_div {
+            height:800px;
         }
 
-        #prekladame {
-            top: 100px;
+        .prekladame {
+            top: 80px;
         }
     </style>
 
@@ -28,85 +28,45 @@
 
 <body>
 
-    <div id="obalovaci_div">
+ <div class="navbar">     
+     <div class="palacinka">PALAČINKA</div>   
+     <a href="index.html">Domů</a>
+     <a href="anime.html">Anime</a>
+     <a href="about.html">O nás</a>
+    </div>
 
-        <div id="navbar">
-            <!-- <div id="nav_palacinka">
+    <div class="obalovaci_div">
 
-                <h1 style="color: black;">Palačinka</h1>
-
-            </div> -->
-            <div id="nav_home"><a href="index.html">
-                <h1 style="color: black">Domů</h1></a>
-            </div>
-            <div id="nav_anime"><a href="anime.html">
-                <h1 style="color: black">Anime</h1></a>
-            </div>
-            <div id="nav_about"><a href="about.html">
-                <h1 style="color: black">O nás</h1></a>
-            </div>
-
+        <div class="season">
+            Začíná nám nová sezóna, což znamená nové série.<br>
+            Na co se tedy můžete těšit?
+            
         </div>
 
-        <!-- <div id="odkazy">
-<a href="index.html">Domů</a>
-<a href="anime.html">Anime</a>
-<a href="about.html">O nás</a>
-</div> -->
+        <div class="prekladame">
+            <h2>Právě překládáme:</h2>
 
-        <div id="nadpis">
-            <font size="6">
-                <h1>Palačinka</h1>
-            </font>
-        </div>
-
-        <div id="season">
-            <h3>Začíná nám nová sezóna, což znamená nové série.<br>
-                Na co se tedy můžete těšit?</h3>
-            <p>
-        </div>
-
-        <div id="prekladame">
-            <h2 style="color: black">Právě překládáme</h2>
-
-            <table border="2" cellpadding="5" cellspacing="6"
-                style="width: 260px; text-align: center; vertical-align:middle; margin-left: auto; margin-right: auto">
-
+            <table valign="bottom">
                 <tr>
-                    <td><a href="anime/yakusoku.html">
-                            <h2>Promised Neverland S2</h2>
+                    <td valign="bottom"><a href="anime/yakusoku.html">
+                            Promised Neverland S2<br>
+                            <a href="anime/yakusoku.html"><img src="images/thumbnails/yakusoku.jpg">
                         </a></td>
-                    <td><a href="anime/horimiya.html">
-                            <h2>Horimiya</h2>
+                    <td valign="bottom"><a href="anime/horimiya.html">
+                            Horimiya<br>
+                            <a href="anime/horimiya.html"><img src="images/thumbnails/horimiya.jpg"></a>
                         </a></td>
-                    <td><a href="anime/kakushi-dungeon.html">
-                            <h2>Ore dake Haireru Kakushi Dungeon</h2>
+                    <td valign="bottom"><a href="anime/kakushi-dungeon.html">
+                            Ore dake Haireru Kakushi Dungeon<br>
+                            <a href="anime/kakushi-dungeon.html"><img src="images/thumbnails/kakushi.jpg"></a>
                         </a></td>
-                    <td><a href="anime/hataraku.html">
-                            <h2>Hataraku Saibou!!</h2>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td><a href="anime/yakusoku.html"><img src="images/thumbnails/yakusoku.jpg"></a></td>
-                    <td><a href="anime/horimiya.html"><img src="images/thumbnails/horimiya.jpg"></a></td>
-                    <td><a href="anime/kakushi-dungeon.html"><img src="images/thumbnails/kakushi.jpg"></a></td>
-                    <td><a href="anime/hataraku.html"><img src="images/thumbnails/hataraku.jpg"></a></td>
-                </tr>
-
-            </table><br>
-
-            <!-- <table border="2" cellpadding="5" cellspacing="6" style="width: 260px; text-align: center; vertical-align:middle; margin-left: auto; margin-right: auto">
-
-        <tr><td><a href="anime/beastars.html"><h2>Beastars S2</h2></a></td></tr>
-        <tr><td><a href="anime/beastars.html"><img src="images/thumbnails/beastars.jpg"></a></td></tr>
-    
-    
-    </table> -->
+                    <td valign="bottom"><a href="anime/hataraku.html">
+                            Hataraku Saibou!!<br>
+                            <a href="anime/hataraku.html"><img src="images/thumbnails/hataraku.jpg"></a>
+                        </a></td>
+                    </tr>
+               </table>
         </div>
-
-
-
     </div>
 </body>
 
