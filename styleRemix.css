@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image:url(images/bg.jpg);
+    background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: arial;
@@ -20,20 +20,26 @@ body {
     width: 100%;
     margin: auto;
     margin-top: 7rem;
-    background:#ffe9ccaa;
+    background: #ffe9ccaa;
     padding: 1rem 0;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    font-size: 3em;
 }
 
 .notice {
     position: relative;
     text-align: center;
     padding: 1.5em 0 0 0;
-    font-size: 1.2em; 
+    font-size: 1.2em;
 }
 
 .section-title {
     display: block;
-    padding: 1em 0; 
+    padding: 1em 0;
     font-size: 1.8em;
     color: #2A2B2DFF;
     text-align: center;
@@ -61,23 +67,56 @@ body {
     background-color: rgba(0, 0, 0, .2);
 }
 
-.media-card > .title {
-    margin:0px;
-    padding:0px;
-    color:#000000;
+.media-card>.title {
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
     font-size: 1.2em;
     text-decoration: none;
     padding: .2em;
 }
 
-.media-card > .cover {
+.media-card>.cover {
     overflow: hidden;
     height: 320px;
     z-index: 7;
     position: relative;
 }
 
-.media-card > .cover > img {
+.media-card>.cover>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    justify-content: space-evenly;
+    gap: 1.5em 0;
+}
+
+.social-card {
+    display: grid;
+    grid-template-rows: auto min-content;
+    position: relative;
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    padding: .6em;
+}
+
+.social-card>.cover {
+    overflow: hidden;
+    height: 320px;
+    z-index: 7;
+    position: relative;
+}
+
+.social-card>.cover>.img {
     height: 100%;
     width: 100%;
     object-fit: cover;
