@@ -1,0 +1,77 @@
+.social {
+    /* position: relative; */
+    margin: auto;
+    text-align: center;
+    top: 10%;
+    width: 40%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+
+
+    background-color: aqua;
+}
+
+.social_title {
+
+    position: relative;
+    text-align: center;
+    margin: auto;
+    font-size: 10;
+    text-align: center;
+}
+
+.social-card {
+    /* position: relative; */
+    display: grid;
+    grid-template-rows: auto min-content;
+
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+
+}
+
+.social-card>.social-cover {}
+
+/* .social {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+     justify-content: space-evenly;
+    gap: 1.5em 0; 
+ 
+    position: relative;
+    top: 5%;
+    max-height: 200px;
+    max-width: 500px;
+    margin: 0px auto;
+    background: rgb(206, 45, 45);
+}
+
+.social-card {
+    display: grid;
+    grid-template-rows: auto min-content;
+    position: relative;
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    padding: .6em;
+    width: 200px;
+    height: 200px;
+}
+
+.social-card>.social-cover {
+    overflow: hidden;
+    height: 320px; 
+    z-index: 7;
+    position: relative;
+}
+
+.social-card>.social-cover>.img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
