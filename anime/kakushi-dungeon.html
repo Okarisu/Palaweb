@@ -1,57 +1,83 @@
+<!-- Okarisu w/sbd -->
+
 <!DOCTYPE html>
-<!-- Made by Fataluget -->
+
 
 <html>
+
 <head>
 
-<meta http-equiv="Content-Language" content="cs">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Ore dake Haireru Kakushi Dungeon</title>
+    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../anime-style.css">
 
-<link rel="stylesheet" type="text/css" href="../styly-stran.css">
+    <title>Ore dake Haireru Kakushi Dungeon</title>
 
-<style>
-.obalovaci_div {height: 1500px}
+</head>
 
-</style>
-
-</head>                             
 <body>
-   
- <div class="navbar">     
-     <div class="palacinka">PALAČINKA</div>   
-     <a href="../index.html">Domů</a>
-     <a href="../anime.html">Anime</a>
-     <a href="../about.html">O nás</a>
+
+    <div id="navbar" class="navbar">
+        <a href="/index.html" class="brand">PALAČINKA</a>
+        <div class="nav">
+            <a href="/index.html" class="nav-link">Domů</a>
+            <a href="/anime.html" class="nav-link">Anime</a>
+            <a href="/about.html" class="nav-link">O nás</a>
+
+        </div>
     </div>
 
-<div class="obalovaci_div">
 
-<div class="nadpis">
-<h1>Ore dake Haireru Kakushi Dungeon</h1>
-<h2>The Hidden Dungeon Only I Can Enter</h2>
-</div>
+    <div class="container">
 
-<div class="obrazek">
-<img src="../images/shows/kakushi.jpg">
-</div>
+        <div class="nadpis">
+            <h1>Ore dake Haireru Kakushi Dungeon</h1>
+            <h2>The Hidden Dungeon Only I Can Enter</h2>
+        </div>
 
-
-
-
-<div class="tabulka">
-<table  border="2"; cellpadding="20"; cellspacing="6">
-<tr><th>Epizoda</th><th>Release</th><th>Jazyk</th><th>Překlad</th><th>Korekce</th><th>Stažení</th></tr>
-
-
-<!-- <tr><td>1.</td><td>Erai-raws</td><td>CZ</td><td>Spulka</td><td>Trezor</td><td><a href="../subs/kakushi-dungeon/[Spulka, Trezor] 01.ass" download="[Spulka, Trezor]  01.ass">Stáhnout</a></td></tr> -->
+        <div class="obrazek">
+            <img src="../images/shows/kakushi.jpg">
+        </div>
 
 
 
-</table>
-</div>
 
-</div>
+        <div class="tabulka">
+            <table border="2" ; cellpadding="20" ; cellspacing="6">
+                <tr>
+                    <th>Epizoda</th>
+                    <th>Release</th>
+                    <th>Jazyk</th>
+                    <th>Překlad</th>
+                    <th>Korekce</th>
+                    <th>Stažení</th>
+                </tr>
+
+
+                <!-- <tr><td>1.</td><td>Erai-raws</td><td>CZ</td><td>Spulka</td><td>Trezor</td><td><a href="../subs/kakushi-dungeon/[Spulka, Trezor] 01.ass" download="[Spulka, Trezor]  01.ass">Stáhnout</a></td></tr> -->
+
+
+
+            </table>
+        </div>
+
+    </div>
 </body>
+
+<script>
+    window.onscroll = () => { scrollFunction() };
+
+    const scrollFunction = () => {
+        if (document.documentElement.scrollTop > 25) {
+            document.getElementById("navbar").style.backgroundColor = '#F98700';
+        } else {
+            document.getElementById("navbar").style.backgroundColor = '#F98700cc';
+        }
+
+    }
+</script>
+
 </html>

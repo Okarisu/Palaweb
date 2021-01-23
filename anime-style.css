@@ -1,0 +1,42 @@
+.obrazek {
+    position: relative;
+    /*width: 400px; height: 555px; top: 100px;*/
+    margin: 0px auto
+}
+
+table {
+    width:666px;
+    border-spacing: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+
+
+}
+
+th {
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid #666;
+    border-top: 1px solid #666;
+}
+
+td {
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid #666;
+}
+tr:hover {background-color:#00000010;} 
+tr:nth-child(even) {background-color:#ffdeb355;}
+tr:nth-child(even):hover {background-color:#ffdeb325;} 
+
+.tabulka {
+    position: relative;
+    margin: 20px auto;    
+}
+
+.obrazek{
+    position: relative;
+    text-align:center;    
+}

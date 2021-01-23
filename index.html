@@ -1,73 +1,81 @@
-<!DOCTYPE html>
-<!-- Made by Fataluget -->
+<!-- Okarisu w/sbd -->
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta http-equiv="Content-Language" content="cs">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
 
     <title>Hlavní strana</title>
-
-
-    <!--import css-->
-    <link rel="stylesheet" type="text/css" href="styly-stran.css">
-
-    <style>
-        .obalovaci_div {
-            height:800px;
-        }
-
-        .prekladame {
-            top: 80px;
-        }
-    </style>
-
 </head>
 
 <body>
 
- <div class="navbar">     
-     <div class="palacinka">PALAČINKA</div>   
-     <a href="index.html">Domů</a>
-     <a href="anime.html">Anime</a>
-     <a href="about.html">O nás</a>
+    <div id="navbar" class="navbar">
+        <a href="/index.html" class="brand">PALAČINKA</a>
+        <div class="nav">
+            <a href="/index.html" class="nav-link">Domů</a>
+            <a href="/anime.html" class="nav-link">Anime</a>
+            <a href="/about.html" class="nav-link">O nás</a>
+
+        </div>
     </div>
 
-    <div class="obalovaci_div">
 
-        <div class="season">
-            Začíná nám nová sezóna, což znamená nové série.<br>
+
+    <div class="container">
+        <section class="notice">
+            Začíná nám nová sezóna, což znamená nové série.</br>
             Na co se tedy můžete těšit?
-            
-        </div>
+        </section>
+        <section>
+            <span class="section-title">Právě překládáme</span>
+            <div class="media">
+                <div class="media-card">
+                    <a class="title" href="anime/yakusoku.html">Promised Neverland S2</a>
+                    <a class="cover" href="anime/yakusoku.html">
+                        <img src="images/thumbnails/yakusoku.jpg">
+                    </a>
+                </div>
+                <div class="media-card">
+                    <a class="title" href="anime/horimiya.html">Horimiya</a>
+                    <a class="cover" href="anime/horimiya.html">
+                        <img src="images/thumbnails/horimiya.jpg">
+                    </a>
+                </div>
+                <div class="media-card">
+                    <a class="title" href="anime/kakushi-dungeon.html">Ore dake Haireru Kakushi Dungeon</a>
+                    <a class="cover" href="anime/kakushi-dungeon.html">
+                        <img src="images/thumbnails/kakushi.jpg">
+                    </a>
+                </div>
+                <div class="media-card">
+                    <a class="title" href="anime/hataraku.html">Hataraku Saibou!!</a>
+                    <a class="cover" href="anime/hataraku.html">
+                        <img src="images/thumbnails/hataraku.jpg">
+                    </a>
+                </div>
 
-        <div class="prekladame">
-            <h2>Právě překládáme:</h2>
-
-            <table valign="bottom">
-                <tr>
-                    <td valign="bottom"><a href="anime/yakusoku.html">
-                            Promised Neverland S2<br>
-                            <a href="anime/yakusoku.html"><img src="images/thumbnails/yakusoku.jpg">
-                        </a></td>
-                    <td valign="bottom"><a href="anime/horimiya.html">
-                            Horimiya<br>
-                            <a href="anime/horimiya.html"><img src="images/thumbnails/horimiya.jpg"></a>
-                        </a></td>
-                    <td valign="bottom"><a href="anime/kakushi-dungeon.html">
-                            Ore dake Haireru Kakushi Dungeon<br>
-                            <a href="anime/kakushi-dungeon.html"><img src="images/thumbnails/kakushi.jpg"></a>
-                        </a></td>
-                    <td valign="bottom"><a href="anime/hataraku.html">
-                            Hataraku Saibou!!<br>
-                            <a href="anime/hataraku.html"><img src="images/thumbnails/hataraku.jpg"></a>
-                        </a></td>
-                    </tr>
-               </table>
-        </div>
+            </div>
+        </section>
     </div>
 </body>
+
+<script>
+    window.onscroll = () => { scrollFunction() };
+
+    const scrollFunction = () => {
+        if (document.documentElement.scrollTop > 25) {
+            document.getElementById("navbar").style.backgroundColor = '#F98700';
+        } else {
+            document.getElementById("navbar").style.backgroundColor = '#F98700cc';
+        }
+
+    }
+</script>
 
 </html>
