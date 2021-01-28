@@ -1,35 +1,36 @@
+<!-- Okarisu w/sbd -->
+
 <!DOCTYPE html>
-<!-- Made by Fataluget -->
+
 
 <html>
 
 <head>
 
-    <meta http-equiv="Content-Language" content="cs">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../anime-style.css">
 
     <title>Majutsushi Orphen Hagure Tabi</title>
-
-    <link rel="stylesheet" type="text/css" href="../styly-stran.css">
-
-    <style>
-        .obalovaci_div {
-            height: 1500px
-        }
-    </style>
 
 </head>
 
 <body>
 
-    <div class="navbar">
-        <div class="palacinka">PALAČINKA</div>
-        <a href="../index.html">Domů</a>
-        <a href="../anime.html">Anime</a>
-        <a href="../about.html">O nás</a>
+    <div id="navbar" class="navbar">
+        <a href="../index.html" class="brand">PALAČINKA</a>
+        <div class="nav">
+            <a href="../index.html" class="nav-link">Domů</a>
+            <a href="../anime.html" class="nav-link">Anime</a>
+            <a href="../about.html" class="nav-link">O nás</a>
+
+        </div>
     </div>
 
-    <div class="obalovaci_div">
+    <div class="container">
 
         <div class="nadpis">
             <h1>Majutsushi Orphen Hagure Tabi</h1>
@@ -194,5 +195,18 @@
 
     </div>
 </body>
+
+<script>
+    window.onscroll = () => { scrollFunction() };
+
+    const scrollFunction = () => {
+        if (document.documentElement.scrollTop > 25) {
+            document.getElementById("navbar").style.backgroundColor = '#F98700';
+        } else {
+            document.getElementById("navbar").style.backgroundColor = '#F98700cc';
+        }
+
+    }
+</script>
 
 </html>
