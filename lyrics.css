@@ -1,0 +1,70 @@
+.container {
+    min-height: 70em;
+}
+
+.links {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    justify-content: center;
+    column-gap: .5em;
+    row-gap: .5em;
+    padding: 1.5em;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: auto min-content;
+    position: relative;
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    /* padding: .6em; */
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.card>.cover {
+    overflow: hidden;
+    height: 150px;
+    z-index: 7;
+    position: relative;
+}
+
+.card>.cover>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* table {
+    width: 666px;
+    border-spacing: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    background-color: #00000010;
+}
+
+th {
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid #666;
+    border-top: 1px solid #666;
+}
+
+td {
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid #666;
+}
+
+tr:hover {
+    background-color: #313335b6;
+} */

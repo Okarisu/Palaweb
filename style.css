@@ -17,6 +17,10 @@ body {
     background-attachment: fixed;
 }
 
+/*body > div:last-of-type {
+    display: none;
+}*/
+
 .container {
     max-width: 1024px;
     width: 100%;
@@ -56,7 +60,7 @@ body {
 
 .media {
     display: grid;
-    grid-template-columns: repeat(3, 230px);
+    grid-template-columns: repeat(auto-fill, 230px);
     justify-content: space-evenly;
     gap: 1.5em 0;
 }
